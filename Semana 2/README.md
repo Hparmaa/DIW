@@ -2,7 +2,7 @@
 # Matrícula: 1441983
 
 ## Inspeção de Rede
-![Inspeção de Rede](img/nome-do-print1.png)
+![Inspeção de Rede](print_meu_index_html.png)
 
 ## Hello World
-![Hello World](img/nome-do-print2.png)
+![Hello World](print_resultado_inspecao.png)
