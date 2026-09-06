@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;           
+    padding: 15px 40px;    /* funciona */        
+    background-color: #ffffff;
+}
+.nav-meio ul {
+    display: flex;       /* linha */
+    list-style: none;    /* tira bolinha */
+    gap: 30px;           
+}
+
+.nav-meio a {
+    text-decoration: none; 
+    color: #333333;       
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.botao-inicial {
+    display: inline-flex;
+    border: 1.2px solid #707070;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.botao-inicial button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #000000;
+}
+.botao-login {
+    background-color: #07a107 ; 
+    
+}
+.botao-cadastro {
+    background-color: #707070;
+}

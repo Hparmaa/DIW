@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página inicial</title>
     <meta name="author" content="Henrique P">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <img src="img/logo.jpg" alt="Logo do site" width="50" height="50">
-        <nav class = "nav-meio">
+        <nav class="nav-meio">
             <ul>
                 <li><a href="#paises">Paises</a> </li>
                 <li><a href="#eu">Quem sou eu </a> </li>
@@ -21,5 +22,30 @@
             <button class="botao-cadastro">Já sou cadastrado</button>
         </div>
     </header>
+
+    <section class="carrossel">
+        <div class="carousel-img">
+            <img src="img/foto1.jpg" alt="1a Foto do carrosel" >
+            <img src="img/foto2.jpg" alt="2a Foto do carrosel" >
+            <img src="img/foto3.jpg" alt="3a Foto do carrosel" >
+        </div>
+        <!---  Barra d pesquisa ---> 
+        <div class="search-overlay">
+            <div class="search-box">
+                <span class="lupinha">🔍</span>
+                <input type="text" placeholder="Pesquisar por país">
+            </div>
+        </div>
+
+        <div class="pontos-do-carrosel">
+                <span class="ponto"></span>
+                <span class="ponto"></span>
+                <span class="ponto"></span> 
+        </div>
+    </section>
+
+
+
+
 </body>
 </html>
